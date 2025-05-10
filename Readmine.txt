@@ -1,0 +1,26 @@
+2. 在 PyCharm 中初始化 Git 仓库
+
+    打开你的项目。
+    在 PyCharm 中，点击 VCS 菜单，选择 Enable Version Control Integration。
+    选择 Git，然后点击 OK。这样就会初始化一个 Git 仓库。
+
+3. 将文件添加到 Git 仓库
+
+    点击 VCS > Git > Add，或右键单击项目中的文件并选择 Git > Add。
+    你也可以在 Git 工具窗口中看到所有未提交的更改，点击 + 按钮将它们添加到暂存区。
+————————————————
+
+ 4. 提交文件
+
+    点击 VCS > Commit，或使用快捷键 Ctrl + K。
+    在提交界面中输入提交信息，然后点击 Commit（或者 Commit and Push，如果你要直接推送到 GitHub）。
+
+5. 连接到 GitHub 仓库
+
+    点击 VCS > Git > Remotes。
+    点击 + 添加一个新的远程仓库，URL 填入你刚才创建的 GitHub 仓库地址，例如：
+————————————————
+6. 推送代码到 GitHub
+
+    点击 VCS > Git > Push，或使用快捷键 Ctrl + Shift + K。
+    选择远程仓库并点击 Push，这会将你的代码上传到 GitHub
